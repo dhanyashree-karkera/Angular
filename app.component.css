@@ -1,0 +1,48 @@
+h4{
+    font-size: larger;
+    display: grid;
+    justify-content: center;
+}
+#full_page{
+    /* border: 2PX solid #1f1f22; */
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+
+.container {
+    border: 2PX solid #1f1f22;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(193, 208, 221);
+}
+label{
+    height: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+#Cancel{
+    
+    margin-top: 20px;
+    margin-left: 5px;
+}
+/* .Save{
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 5px;
+
+} */
+.save{
+    /* display: flexbox;
+    justify-items: center;
+    cursor: pointer; */
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    display: grid;
+}
+}

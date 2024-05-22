@@ -1,0 +1,29 @@
+<div class="email-template">
+    <h2>Send Email</h2>
+    <div class="form-group">
+      <label for="to">To:  </label>
+        <p-chips />
+    </div>
+    <div class="form-group">
+      <label for="cc">CC: </label>
+      <p-chips />
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject">
+    </div>
+    <div class="form-group">
+      <label for="body">Body:</label>
+      <textarea id="body" name="body" rows="6"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="attachment">Attachment:  </label> 
+      <input type="file" style="margin: 10px;" id="attachment" (change)="onFileSelected($event)">
+
+    </div>
+    <div class="buttons">
+        <p-button label="Save" (click)="save()" />
+        <p-button label="Cancel" severity="secondary" (click)="cancel()"/>
+    </div>
+</div>
+  
